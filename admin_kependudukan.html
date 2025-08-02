@@ -1,48 +1,76 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Administrasi Kependudukan - Satu Klik Wonosari</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Administrasi Kependudukan - SATU KLIK</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap">
   <style>
     body {
-      font-family: 'Baloo 2', cursive;
       margin: 0;
-      background-color: #f0f0f0;
-      padding: 20px;
+      font-family: 'Baloo 2', cursive;
+      background-color: #e0e0e0;
     }
-    h1 {
+    .header {
+      background-color: #4ba69d;
+      color: white;
       text-align: center;
-      color: #4ba69d;
+      padding: 30px 20px;
     }
-    ul {
-      max-width: 600px;
-      margin: 20px auto;
-      background: white;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    li {
+    .header img {
+      width: 90px;
       margin-bottom: 10px;
+    }
+    .header h1 {
+      font-size: 28px;
+      margin: 0;
+    }
+    .container {
+      text-align: center;
+      padding: 20px 20px 0;
+    }
+    .container h2 {
       font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .menu-button {
+      display: block;
+      margin: 10px auto;
+      background-color: #e53935;
+      color: white;
+      padding: 14px 20px;
+      width: 90%;
+      max-width: 500px;
+      border: none;
+      border-radius: 30px;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .footer {
+      margin: 40px 0 20px;
+      text-align: center;
+    }
+    .footer img {
+      height: 60px;
     }
   </style>
 </head>
 <body>
-  <h1>Administrasi Kependudukan</h1>
-  <ul>
-    <li>Akta Kelahiran</li>
-    <li>Akta Kematian</li>
-    <li>Akta Perceraian</li>
-    <li>Akta Perkawinan</li>
-    <li>Kartu Tanda Penduduk (KTP)</li>
-    <li>Kartu Keluarga (KK)</li>
-    <li>Kartu Identitas Anak (KIA)</li>
-    <li>Perubahan Elemen pada KTP / KK</li>
-    <li>Perpindahan Penduduk</li>
-    <li>Informasi Lebih Lanjut</li>
-  </ul>
+
+  <div class="header">
+    <img src="logo-wonosobo.png" alt="Logo Wonosari">
+    <h1>ADMINISTRASI KEPENDUDUKAN</h1>
+  </div>
+
+  <div class="container">
+    <h2>Silakan pilih layanan yang Anda butuhkan berikut ini :</h2>
+    <div class="menu-button">AKTA KELAHIRAN</div><div class="menu-button">AKTA KEMATIAN</div><div class="menu-button">AKTA PERCERAIAN</div><div class="menu-button">AKTA PERKAWINAN</div><div class="menu-button">KARTU IDENTITAS ANAK (KIA)</div><div class="menu-button">KARTU TANDA PENDUDUK (KIA)</div><div class="menu-button">KARTU KELUARGA (KK)</div><div class="menu-button">PERPINDAHAN PENDUDUK</div><div class="menu-button">PERUBAHAN ELEMEN PADA KTP / KK</div><div class="menu-button">INFORMASI LEBIH LANJUT</div>
+  </div>
+
+  <div class="footer">
+    <img src="LOGO SATU KLIK KOTTRAK.png" alt="Satu Klik Logo">
+  </div>
+
 </body>
 </html>
